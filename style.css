@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* --- Container & Row Setup --- */
+
 .container {
     max-width: 1300px;
     margin: auto;
@@ -31,7 +31,7 @@ html {
     margin:30px;
 }
 
-/* --- Two Column Layout --- */
+
 .col-2 {
     flex-basis: 50%;
     min-width: 300px;
@@ -48,7 +48,7 @@ html {
     margin: 25px 0;
 }
 
-/* --- Typography & Colors --- */
+
 a {
     text-decoration: none;
     color: #555;
@@ -72,7 +72,7 @@ p {
     background: #563434;
 }
 
-/* --- Header & Navbar --- */
+
 .header {
     background: radial-gradient(#fff, #ffd6d6);
 }
@@ -113,7 +113,7 @@ nav {
     padding-right: 25px;
 }
 
-/* --- Featured Categories (3 Columns) --- */
+
 .categories {
     margin: 70px 0;
 }
@@ -128,13 +128,12 @@ nav {
     width: 100%;
 }
 
-/* --- Featured Products (4 Columns) --- */
+
 .col-4 {
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    /* This transition powers the hover effect */
     transition: transform 0.5s;
 }
 
@@ -151,12 +150,11 @@ nav {
     font-size: 14px;
 }
 
-/* Hover Effect: Floats the product card up slightly */
 .col-4:hover {
     transform: translateY(-5px);
 }
 
-/* --- Typography & Star Ratings --- */
+
 .title {
     text-align: center;
     margin: 0 auto 80px;
@@ -165,7 +163,7 @@ nav {
     color: #555;
 }
 
-/* Creates the small red underline beneath section titles */
+
 .title::after {
     content: '';
     background: #ff523b;
@@ -181,7 +179,7 @@ nav {
 .rating .fa {
     color: #ff523b;
 }
-/* --- Exclusive Offer Section --- */
+
 .offer {
     background: radial-gradient(#fff, #ffd6d6);
     margin-top: 80px;
@@ -196,7 +194,7 @@ small {
     color: #555;
 }
 
-/* --- Contact Section --- */
+
 .contact-section {
 
     display: flex;
@@ -210,7 +208,7 @@ small {
 
 
 
-/* --- Contact Form --- */
+
 .contact-form {
     background: #fff;
     padding: 25px;
@@ -240,7 +238,7 @@ small {
     font-size: 16px;
 }
 
-/* --- Footer Section --- */
+
 .footer {
     background: #000;
     color: #8a8a8a;
