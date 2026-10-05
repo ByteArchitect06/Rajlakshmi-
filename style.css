@@ -301,3 +301,42 @@ ul {
 .copyright {
     text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+    
+    .row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    
+    .col-2, .col-3, .col-4, 
+    .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+        flex-basis: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    .col-2 h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+   
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .nav-links {
+        gap: 15px;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    
+    .header .row {
+        margin-top: 140px;
+    }
+}
